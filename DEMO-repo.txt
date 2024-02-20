@@ -1,1 +1,16 @@
 DEMO REPO
+
+Download Git hub brew and run brew install git
+After installing check by running  git --version
+Now create a file on your desktop and enter some text file into it here i entered DEMO-repo.txt
+Now lets push this into our git hub
+enter command cd desktop -- so that you will enter into the desktop
+Now go into the file you wanted it to be on your github by running the command "cd Demo" this takes you inside the file DEMO.
+Now run the command "git init" to initialize this file on github
+Now run the command "git status" to check the status of file by looking into it. You can see the list of files in the folder DEMO
+Now run the command "git add DEMO-repo.txt"  here enter git add "file name"  now you are adding the items in file DEMO on to the github where you initialized DEMO
+Noe enter command "git status" Now, you can see the DEMO-repo.txt inside DEMO
+Now enter git remote add origin "url" 
+Now enter your user name and password
+Now enter "git push -u origin master"
+Now open you github profile and you can see the repository and the txt file in it 
